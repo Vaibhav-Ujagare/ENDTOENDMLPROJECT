@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
 import warnings
-warnings.filterwarnings("ignore",message="numpy.dtype size changed")
+# warnings.filterwarnings("ignore",message="numpy.dtype size changed")
 
 @dataclass
 class DataIngestionConfig:
